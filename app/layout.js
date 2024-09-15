@@ -2,9 +2,9 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const generalSans = localFont({
-  src: "./fonts/GeneralSans-Variable.ttf",
+  src: "./fonts/GeneralSans-Bold.otf",
   variable: "--font-general-sans",
-  weight: "100 200 3000 400 500 600 700 800 900",
+  weight: "900",
 });
 
 export const metadata = {
