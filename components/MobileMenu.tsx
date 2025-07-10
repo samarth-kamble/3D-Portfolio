@@ -6,10 +6,12 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { NavigationItems } from "./NavigationItems";
 
-interface NavigationItem {
+import type { LucideIcon } from "lucide-react";
+
+export interface NavigationItem {
   id: string;
   label: string;
-  icon: React.ElementType;
+  icon: LucideIcon;
   href?: string;
 }
 
